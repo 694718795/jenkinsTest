@@ -22,6 +22,11 @@ public class TaskTest {
         return "jenkinsTest";
     }
 
+    @RequestMapping("/jenkinsTest1")
+    public String jenkinsTest1(){
+        return "自动集成jenkinsTest";
+    }
+
     /*
     * 多个线程执行多个任务*/
     @RequestMapping("/async")
